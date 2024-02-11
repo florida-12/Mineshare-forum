@@ -137,6 +137,7 @@ nav .div-link .link-end i {
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .page .topic {
@@ -152,6 +153,10 @@ nav .div-link .link-end i {
   cursor: pointer;
   user-select: none;
   transition: 0.1s;
+}
+
+.page .end {
+  margin-bottom: 0;
 }
 
 .page .topic:hover {
@@ -217,5 +222,35 @@ nav .div-link .link-end i {
 }
 
 .page .topic:hover .open i {
+  color: #11B2FF;
+}
+
+footer {
+  background: #F3F7FC;
+  padding-bottom: 30px;
+}
+
+footer .div-link {
+  background: #3A4E57;
+  border-radius: 0 0 8px 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+footer .div-link .link {
+  font-family: 'TT Norms Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 17px;
+  display: inline-flex;
+  user-select: none;
+}
+
+footer .div-link .link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .div-link .link a:hover {
   color: #11B2FF;
 }
