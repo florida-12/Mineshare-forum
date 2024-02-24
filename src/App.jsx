@@ -4,6 +4,7 @@ import reactLogo from './assets/react.svg'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home'
 import Teams from './Teams'
+import Login from './Login';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/teams" element={<Teams />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   )

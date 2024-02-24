@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
 import './App.css'
+import './Teams.css'
 
 function Teams() {
   return (
     <>
       <nav>
-        <div className="container">
+        <div className='container'>
           <div className='d-flex justify-content-between'>
             <p className='logo'>Mineshare</p>
             <div className='d-flex'>
@@ -29,7 +30,56 @@ function Teams() {
       </nav>
 
       <div className='container'>
+        <div className='page'>
+          <div className='row'>
 
+
+            <div className='col-12'>
+              <div className='card'>
+
+                <div className='d-flex justify-content-between'>
+                  <div className='d-inline-flex flex-column'>
+                    <div className='d-inline-flex title' >Название</div>
+                    <div className='d-inline-flex'>Описание 1. Здесь может быть более длинное описание.</div>
+                  </div>
+
+                  <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Userbox_creeper.svg/1024px-Userbox_creeper.svg.png" class="avatar" />
+
+                    <div className='d-inline-flex flex-column' style={{ verticalAlign: 'bottom' }}>
+                      <div className='d-inline-flex username'>Florida</div>
+                      <div className='d-inline-flex date'>07-07-2024</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div className='col-12'>
+              <div className='card'>
+
+                <div className='d-flex justify-content-between'>
+                  <div className='d-inline-flex flex-column'>
+                    <div className='d-inline-flex title'>Название</div>
+                    <div className='d-inline-flex'>Описание 1. Здесь может быть более длинное описание.</div>
+                  </div>
+
+                  <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Userbox_creeper.svg/1024px-Userbox_creeper.svg.png" class="avatar" />
+
+                    <div className='d-inline-flex flex-column' style={{ verticalAlign: 'bottom' }}>
+                      <div className='d-inline-flex username'>Florida</div>
+                      <div className='d-inline-flex date'>07-07-2024</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
       </div>
     </>
   )
